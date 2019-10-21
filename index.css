@@ -1,0 +1,237 @@
+:root{
+    font-size: 16px;
+}
+
+.navbar .navbar-brand{
+    color:#655df5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    
+}
+.myJoiningButton{
+    border: 1px solid blue;
+    border-radius: 40px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-weight:700;
+}
+.logAndSign{
+    color: black;
+    font-weight:600;
+} 
+.explore{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+} 
+.exploreLastButton{
+    border: 1px solid blue;
+    border-radius: 10px;
+    width:15vw;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-weight:700;
+}
+#navbarDropdown{
+    color: white;
+    font-weight: 500;
+}
+
+.searchBar .searchArea{
+    width:27vw;
+}
+.searchImage{
+    width:35px;
+    height:38px;
+}
+.imageMain{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.966)) ,url("https://cdn.pixabay.com/photo/2018/09/25/11/52/aerial-3702074_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80%;
+    margin-top: 13vh;
+}
+.myBannerText{
+    color:white;
+    width:55vw;
+    margin-top:3vh;
+    margin-left:40vw;
+    padding:10px;
+}
+.bannerHeading{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 900;
+    margin-bottom: 25vh;
+    font-size:3.5rem;
+}
+.bannerParagraph{
+    margin-left: 4vw;
+    font-weight: 700;
+    margin-top: 5vh;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+.bannerButton{
+    border: 1px solid blue;
+    height: 10vh;
+    width: 10vw;
+    background-color: blue;
+    color: white;
+    font-weight:700;
+    margin-left: 4vw;
+}
+.myCompaniesImages{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 5px;
+}
+.myCompany{
+    width: 15vw;
+    height: 10vh;
+    margin:20px 15px;
+}
+.seeAllButton{
+    width: 7vw;
+    height: 10vh;
+    margin:5px 15px;
+    border:1px solid black;
+    background-color :white;
+}
+.myCards{
+    display: flex;
+    width:30vw;
+}
+.card-program{
+    width:20vh;
+    height:20vh;
+    border-radius: 50%;
+    margin-left:65px;
+    margin-top: 15px;;
+}
+.crdImage{
+    display:inline-block;
+}
+.card-title{
+    width:20vw;
+}
+.card-text{
+    width:20vw;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 70px;
+  width: 70px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+ 
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+.browseBody{
+    background-color: lightgrey;
+}
+.navBarBrowse,.navBarIndex{
+    background-color: white;
+}
+
+.myExploreHeading{
+    margin-top:13vh;
+    margin-left:10vw;
+    font-size: 2.5rem;;
+}
+.mySlideShow{
+    margin-top:3vh;
+}
+.group1images{
+    padding:4vh 10vw;
+    display: flex;
+}
+.modal-title{
+    width:100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mongoImage ,.expressImage{
+    width: 25vw;
+    height:20vh;
+    display:block;
+    margin:10px;
+}
+.reactImage, .nodeImage{
+    width: 25vw;
+    height:42vh;
+    margin:10px;
+}
+.group2images{
+    padding:4vh 10vw;
+    display: flex;
+}
+.dataStructure, .algorithm, .java{
+    width: 25vw;
+    height:42vh;
+    margin:10px;
+}
+.modalButtonCancel{
+    background-color: red;
+    font-size:1rem;
+    font-weight: bold;
+    color: white;
+}
+.modalButtonSignUp{
+    background-color:orange;
+    font-size:1rem;
+    font-weight: bold;
+}
+.modalButtonLogIn{
+    background-color:green;
+    width: 100%;
+    font-size:1rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+.myDegreeHeading{
+    margin-top:5vh;
+    margin-left:10vw;
+    font-size: 2.5rem;;
+}
+.group1cards, .group2cards{
+    padding:4vh 10vw;
+    display: flex;
+}
+.group1card1,.group1card2,.group1card3,.group2card3,.group2card2,.group2card1{
+    margin:10px auto;
+}
+
+.card-iits{
+    width:25vw;
+    height:25vh;
+}
+.card-nit{
+    width:25vw;
+    height:25vh;
+}
+.myCourseHeading{
+    margin-top:3vh;
+    margin-left:10vw;
+    margin-bottom:3vh;
+    font-size: 2.5rem;;
+}
